@@ -1,0 +1,11 @@
+{% extends "core/base.html" %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Acerca de Nosotros</h2>
+    <p>Somos una empresa local dedicada a ofrecer productos ecológicos y sostenibles que ayudan a reducir el impacto ambiental. Desde artículos de limpieza y cuidado personal hasta soluciones innovadoras para el hogar, nuestra tienda promueve un estilo de vida más verde y responsable.</p>
+    <a href="{% url 'registrar' %}" class="btn btn-primary">Volver a Registro</a>
+</div>
+{% endblock %}
